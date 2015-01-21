@@ -1,0 +1,12 @@
+C:\Users\Andrew\Documents\Game Development\Space Shooter\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+C:\Users\Andrew\Documents\Game Development\Space Shooter\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Andrew\Documents\Game Development\Space Shooter\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Andrew\Documents\Game Development\Space Shooter\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Andrew\Documents\Game Development\Space Shooter\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Andrew\Documents\Game Development\Space Shooter\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Andrew\Documents\Game Development\Space Shooter\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Andrew\Documents\Game Development\Space Shooter\Temp\bin\Debug\nunit.framework.dll
+C:\Users\Andrew\Documents\Game Development\Space Shooter\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Andrew\Documents\Game Development\Space Shooter\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Andrew\Documents\Game Development\Space Shooter\obj\Debug\Assembly-CSharp.dll
+C:\Users\Andrew\Documents\Game Development\Space Shooter\obj\Debug\Assembly-CSharp.pdb
