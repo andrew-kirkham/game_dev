@@ -1,0 +1,19 @@
+#summary help if you forget subversion commands
+
+= Introduction =
+
+this will be basic stuff using tortoiseSVN so that you can commit, update, and view the differences in your code vs a new revision.
+
+
+= Details =
+
+You should already have a working copy of the code (as of right now I don't believe we need more than one working copy per person).
+*BEFORE YOU START CODING SVN UPDATE* trust me it will save you hassle later. to perform this all you need to do is right click the directory of your working copy (probably called lineevasion or something) and click the svn update. presto, you should now be at the most recent revision.
+
+So you go about typing code, making sure it works with the current revision and are ready to commit your code. The first step is to ensure you didnt screw any other code up that you didnt want to. if your folder is a live folder, you should have a red exclamation point around things you may have changed. otherwise right click on the entire folder and click 
+check for modifications. If the only modifications are to files you know you worked on, you are good to go.
+However you may have changed something else in a different class. subversion can get funny and say you changed something even if you just added a space or ctrl-z something. You will need to revert all the files you didnt change to revert them back to their original state. check to make sure that your code works then move on to committing
+
+Time to commit. if you are sure your code is working and that there are no extra things you can commit your code. To do this just right click on your working copy and click SVN Commit. Here you will need to select only the files that you have changed. be sure to include a brief summary of what has been changed/added as well as your name. click the commit button and subversion will take care of the rest. You may have to type in a username and password. the username is your gmail and your password is a google generated password you can find here: https://code.google.com/hosting/settings
+
+That should be it and your code should be committed!

@@ -1,0 +1,35 @@
+#summary A short summary on coding standards
+
+= Introduction =
+
+This is some of the coding standards I use and work with in order to make my code clearer as well as easier to read. You do not have to abide by this, but if your code does not make sense to a reader it will probably get deleted or changed. 
+
+
+= Details =
+
+camelCase:
+Nothing should be IN ALL CAPS
+
+Class names, properties, and constants should be capitalized
+eg. class Lightbike, final int GameBoardWidth
+
+everything else follows regular camel case.
+eg. string userName, int highScore
+
+abbreviating things:
+this varies by what you are doing. in general things do not get abbreviated unless the word is obnoxiously long or it is a very standard abbreviation. in this event the entire abbreviation is treated as a word
+eg. retrieveUserSettingsFromDataBase can become retrieveUserSettingsFromDb
+eg. fixThisMethodAsSoonAsPossible can become fixThisMethodAsap *not a good choice for a name however.
+
+all methods/classes should exactly describe what they are doing. fields, variables, properties etc should also exactly describe what they are. You are not writing in languages or on computers where the length is an issue.
+eg var xyz = bad. int size = okay. int horizontalSize = good.
+method doSomething = bad. method moveBike (that both gets movement paramaters and moves the bike) = okay. method retrieveBikeSpeed, method retrieveBikeDirection, methodMoveBikeLeft = good. 
+**this helps immensely when testing to find where something broke.
+
+i like all class-wide declarations at the top of the class and for methods to be organized in a semi-logical fashion. 
+properties are a pain in java and should go at the end of the class (a lot of properties will be just getting/setting)
+
+
+
+
+at work i abide by a strict naming convention. Naming your variables/objects/whatever can be the hardest part of code writing sometimes. I understand the idea burst where you just throw a name down for the time being. Please make sure to do your best to refactor it before committing your code. I wont go through renaming all of your code unless I literally have no idea what it is supposed to mean.

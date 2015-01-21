@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="coen2610.lineevasion"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="7" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:icon="@drawable/launcher_icon"
+        android:label="LineEvasion">
+        <activity 
+            android:label="LineEvasion" 
+            android:name="MainMenuView" 
+            android:theme="@android:style/Theme.NoTitleBar" 
+            android:screenOrientation="landscape" 
+            android:permission="android.permission.VIBRATE">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity 
+            android:label="LineEvasion" 
+            android:name=".OptionsView" 
+            android:theme="@android:style/Theme.NoTitleBar" 
+            android:screenOrientation="landscape" 
+            android:permission="android.permission.VIBRATE">
+        </activity>
+        <activity 
+            android:label="LineEvasion" 
+            android:name="PlayGameView" 
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" 
+            android:screenOrientation="landscape" 
+            android:permission="android.permission.VIBRATE">
+        </activity>
+        
+    </application>
+
+</manifest>

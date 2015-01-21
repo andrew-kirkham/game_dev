@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Line Evasion</string>
+    <string name="paintOn">Graphics Off</string>
+    <string name="paintOff">Graphics On</string>
+    <string name="graphics_off">Graphics Off</string>
+    <string name="win_dialog">You Win!</string>
+    <string name="lose_dialog">You lose!</string>
+    <string name="start_dialog">You Are Pink\nTap left and right to move</string>
+</resources>
